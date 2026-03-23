@@ -1,9 +1,3 @@
-"""
-History Manager
-===============
-Maintains a bounded, per-user conversation history in memory.
-Thread-safe for python-telegram-bot's async context.
-"""
 from __future__ import annotations
 
 from collections import deque
