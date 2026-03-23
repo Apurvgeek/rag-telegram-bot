@@ -12,7 +12,7 @@ Ask questions in plain English — the bot retrieves relevant passages from your
 ```bash
 git clone <repo-url>
 cd rag_telegram_bot
-python -m venv .venv && source .venv/bin/activate
+python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -33,7 +33,7 @@ Three sample files are included (return policy, tech FAQ, onboarding guide).
 ### 4. Ingest documents
 
 ```bash
-python -m src.ingest
+python3 -m src.ingest
 ```
 
 This embeds all documents and stores them in `rag_store.db`.  
@@ -50,7 +50,7 @@ ollama serve        # runs on localhost:11434
 ### 6. Run the bot
 
 ```bash
-python bot.py
+python3 bot.py
 ```
 
 Open Telegram, find your bot, and start asking questions.
