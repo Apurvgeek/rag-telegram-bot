@@ -1,0 +1,11 @@
+cd rag_telegram_bot
+cat > .gitignore << 'EOF'
+.env
+rag_store.db
+__pycache__/
+*.pyc
+.DS_Store
+*.egg-info/
+.venv/
+venv/
+EOF
